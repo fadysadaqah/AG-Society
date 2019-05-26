@@ -1,0 +1,25 @@
+{
+  "name": "pearson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadysadakah/pearson.git"
+  },
+  "author": "AG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadysadakah/pearson/issues"
+  },
+  "homepage": "https://github.com/fadysadakah/pearson#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "iplocation": "^6.1.0",
+    "pg": "^7.11.0"
+  }
+}
