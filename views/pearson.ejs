@@ -1,0 +1,57 @@
+<%include partials/header.ejs%>
+<%include partials/navbar.ejs%>
+
+<style>
+    #form {
+        margin: auto;
+        width: 550px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 30px;
+        border-radius: 15px;
+        margin-top: 20vh;
+    }
+
+    #logo {
+        /* margin-bottom: 30px; */
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    #solve,
+    #wink {
+        text-align: center;
+        font-weight: 100;
+    }
+
+    #hr {
+        margin-bottom: 30px;
+    }
+</style>
+<div class="container">
+
+
+    <div id="form">
+        <img id="logo" src="https://d3ui957tjb5bqd.cloudfront.net/uploads/images/3/32/32249.og.jpg?1462202202" alt="">
+        <hr>
+        <h5 id="solve">Solve Your Exams from home </h5>
+        <h2 id="wink">&#128521;</h2>
+        <hr id="hr">
+        <form id="p_form" action="/d3ui957tjb5bqd.cloudfront.net/uploads/3/32/32249.og.jpg?146220220" method="POST">
+            <div class="form-group">
+                <label for="a">Student Code</label>
+                <input type="text" class="form-control" id="a" aria-describedby="emailHelp"
+                    placeholder="Enter your code" name="j_username">
+            </div>
+            <div class="form-group">
+                <label for="b">Password</label>
+                <input type="password" class="form-control" id="b" placeholder="Password" name="j_password">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+
+    </div>
+
+</div>
+<script src="pearson.js"></script>
+<%include partials/footer.ejs%>
